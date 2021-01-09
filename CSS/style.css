@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Form Input Text. */
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+  .form-control {
+    width: 50% !important;
+    margin: auto;
+  }
+}
+
+/* For 1024 Resolution */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .form-control {
+        width: 50% !important;
+        margin: auto;
+      }
+    }
+}
+
+
+/* All Text in Form. */
+.wrapper{
+  margin-top: 100px;
+}
+
+h4{
+  margin-top: 60px;
+}
+
+p{
+  margin-top: 15px;
+}
+
+h3{
+  margin-top: 200px;
+}
+
+/* Icon. */
+.navbar #logo{
+  font-size: 1.33rem !important;
+}
+
+/* Danger Image. */
+#danger{
+  width: 15%;
+  height: 150px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+ #danger{
+   width: 50%;
+   height: 150px;
+ }
+  }
+
+
+@media only screen and (min-device-width : 720px) and (max-device-width : 1024px) {
+ #danger{
+  width: 50%;
+  height: 150px;
+ }
+    }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+ #danger{
+  width: 50%;
+  height: 240px;
+ }
+  }
+  
+  
